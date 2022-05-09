@@ -1,0 +1,289 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+body{
+  background-image:url(img/fundo.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 3px;
+    width: 80px;
+        height: 50px;
+        
+  }
+
+    
+    .img_logo{
+        width: 100px;
+        height: 50px;
+        
+        }
+
+        .card-text{
+
+            font-family: 'Merriweather', serif;
+            color: 	white;
+            font-size: 17px;
+        }
+
+    
+        li{
+            font-family: 'Merriweather', serif;
+            display: inline-block;
+            text-decoration: none;
+          
+        }
+        
+
+        ul{
+            font-family: 'Merriweather', serif;
+         
+        }
+
+    
+
+        .nav-link{
+            font-family: 'Merriweather', serif;
+            border-radius: 15px;
+          
+        }
+ 
+        .container{
+          font-family: 'Merriweather', serif;}
+          
+
+    
+
+    
+    
+
+
+    #logobatman{
+        width: 650px;
+        height: 600px;
+ 
+    }
+    .carousel{
+        
+        margin: 0 auto;
+    
+        }
+
+
+    .nav-link:hover{
+
+        font-size: larger;
+        background-color: black;
+    }
+    /* inicio pagina home */
+
+
+  .svg-container {
+        display: block;
+        width: 30%;
+        margin: auto;
+        margin-top: 30px;
+  
+      }
+
+      .svg-container0{
+          background-color: black;
+      }
+      
+    .svg-content { 
+          display: inline-block;
+          vertical-align: middle; 
+          overflow: hidden;
+      }
+      
+  .st0 {
+                  opacity: 0.37;
+              }
+      
+              .st1 {
+                  fill: none;
+              }
+      
+              .st2 {
+                  filter: url(#Adobe_OpacityMaskFilter);
+              }
+      
+              .st3 {
+                  fill: url(#SVGID_1_);
+              }
+      
+              .st6 {
+                  opacity: 0.37;
+              }
+      
+              #dark {
+                  animation: dark 4s infinite alternate linear;
+              }
+      
+              #light {
+                  animation: light 4s infinite alternate linear;
+              }
+      
+              @keyframes dark {
+                  0% {
+                      transform: translate(0px, 0px)
+                  }
+                  12.5% {
+                      transform: translate(0px, -42.5px)
+                  }
+                  25% {
+                      transform: translate(0px, -85px)
+                  }
+                  37.5% {
+                      transform: translate(0px, -127.5px)
+                  }
+                  50% {
+                      transform: translate(0px, -170px)
+                  }
+                  62.5% {
+                      transform: translate(0px, -212.5px)
+                  }
+                  75% {
+                      transform: translate(0px, -255px)
+                  }
+                  87.5% {
+                      transform: translate(0px, -297.5px)
+                  }
+                  100% {
+                      transform: translate(0px, -340px)
+                  }
+              }
+      
+              @keyframes light {
+                  0% {
+                      transform: translate(0px, 0px)
+                  }
+                  12.5% {
+                      transform: translate(15px, -42.5px)
+                  }
+                  25% {
+                      transform: translate(30px, -85px)
+                  }
+                  37.5% {
+                      transform: translate(45px, -127.5px)
+                  }
+                  50% {
+                      transform: translate(75px, -170px)
+                  }
+                  62.5% {
+                      transform: translate(90px, -212.5px)
+                  }
+                  75% {
+                      transform: translate(105px, -255px)
+                  }
+                  87.5% {
+                      transform: translate(120px, -297.5px)
+                  }
+                  100% {
+                      transform: translate(135px, -340px)
+                  }
+              }
+      
+              #shadow_dark {
+                  animation: shadow_dark 4s infinite alternate linear;
+              }
+      
+              #shadow_light {
+                  animation: shadow_light 4s infinite alternate linear;
+              }
+      
+              @keyframes shadow_dark {
+                  0% {
+                      transform: translate(0px, 0px)
+                  }
+                  12.5% {
+                      transform: translate(0px, 42.5px)
+                  }
+                  25% {
+                      transform: translate(0px, 85px)
+                  }
+                  37.5% {
+                      transform: translate(0px, 127.5px)
+                  }
+                  50% {
+                      transform: translate(0px, 170px)
+                  }
+                  62.5% {
+                      transform: translate(0px, 212.5px)
+                  }
+                  75% {
+                      transform: translate(0px, 255px)
+                  }
+                  87.5% {
+                      transform: translate(0px, 297.5px)
+                  }
+                  100% {
+                      transform: translate(0px, 340px)
+                  }
+              }
+      
+              @keyframes shadow_light {
+                  0% {
+                      transform: translate(0px, 0px)
+                  }
+                  12.5% {
+                      transform: translate(15px, 42.5px)
+                  }
+                  25% {
+                      transform: translate(30px, 85px)
+                  }
+                  37.5% {
+                      transform: translate(45px, 127.5px)
+                  }
+                  50% {
+                      transform: translate(75px, 170px)
+                  }
+                  62.5% {
+                      transform: translate(90px, 212.5px)
+                  }
+                  75% {
+                      transform: translate(105px, 255px)
+                  }
+                  87.5% {
+                      transform: translate(120px, 297.5px)
+                  }
+                  100% {
+                      transform: translate(135px, 340px)
+                  }
+              }
+    /* fim pagina home */
+
+.logo{
+    text-align: center;
+}
+
+.bat-sinal{
+    border-radius: 15px;
+ height: 370px;
+    width: 560px;
+text-align: center;
+
+}
+.imgrobin{
+    height: 375px;
+    border-radius: 15px;
+    
+}
+
+.imgrobin1{
+    height: 375px;
+    border-radius: 15px;
+    
+}
+
+.img_inimigos{
+    height: 200px;
+    width: 270px;
+    border-radius: 15px;
+
+}
